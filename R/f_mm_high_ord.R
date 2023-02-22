@@ -1,6 +1,11 @@
 #' Helper function for MM matrix simulation
 #'
 #' @keywords internal
+#' @references Marco Gramatica. Silvia Liverani. Peter Congdon. 
+#' "Structure Induced by a Multiple Membership Transformation on the Conditional
+#'  Autoregressive Model." Bayesian Analysis Advance Publication 1 - 25, 2023.
+#'  https://doi.org/10.1214/23-BA1370
+#'  
 #' @import expm
 #' @import stats
 f_mm_high_ord <- function(

@@ -19,6 +19,11 @@
 #' FALSE, and if omitted randomly selects without replacement
 #' (if `m` - `n` <= `n`, otherwise with replacement) a subset of areas
 #' @param red_areas vector of indices of areas to use if `m` < `n`
+#' 
+#' @references Marco Gramatica. Silvia Liverani. Peter Congdon. 
+#' "Structure Induced by a Multiple Membership Transformation on the Conditional
+#'  Autoregressive Model." Bayesian Analysis Advance Publication 1 - 25, 2023.
+#'  https://doi.org/10.1214/23-BA1370
 #'
 #' @return an m x n matrix of weights
 #' @import expm

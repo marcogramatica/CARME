@@ -23,3 +23,8 @@ a vector of length \code{n}
 data(W_sel)
 sim_car(W = W_sel, alpha = .9, tau = 5)
 }
+\references{
+Jin, X., Carlin, B.P. and Banerjee, S. (2005), Generalized
+Hierarchical Multivariate CAR Models for Areal Data. Biometrics,
+61: 950-961. https://doi.org/10.1111/j.1541-0420.2005.00359.x
+}

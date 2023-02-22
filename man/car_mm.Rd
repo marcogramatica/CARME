@@ -96,3 +96,17 @@ fit <- car_mm(
 
 }
 }
+\references{
+{
+Marco Gramatica. Silvia Liverani. Peter Congdon.
+"Structure Induced by a Multiple Membership Transformation on the Conditional
+Autoregressive Model." Bayesian Analysis Advance Publication 1 - 25, 2023.
+https://doi.org/10.1214/23-BA1370
+
+Petrof, O, Neyens, T, Nuyts, V, Nackaerts, K, Nemery, B, Faes, C. On the
+impact of residential history in the spatial analysis of diseases with a
+long latency period: A study of mesothelioma in Belgium.
+Statistics in Medicine. 2020; 39: 3840– 3866.
+https://doi.org/10.1002/sim.8697
+}
+}

@@ -5,7 +5,6 @@
 #' @param ... Arguments passed to `rstan::sampling` (e.g. iter, chains).
 #' @return An object of class `stanfit` returned by `rstan::sampling`
 #' 
-#' @importFrom Rdpack reprompt
 #' @references
 #' {
 #' Marco Gramatica. Silvia Liverani. Peter Congdon. 

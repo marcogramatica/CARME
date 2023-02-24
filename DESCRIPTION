@@ -1,7 +1,7 @@
 Package: CARME
 Title: CAR-MM Modelling in Stan
 Version: 0.11
-Authors@R: 
+Authors@R:
     c(
     person("Marco", "Gramatica", , "gramaticamarco@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-6374-0933")),
@@ -16,9 +16,9 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 Biarch: true
-Depends: 
+Depends:
     R (>= 3.4.0)
-Imports: 
+Imports:
     methods,
     Rcpp (>= 0.12.0),
     rstan (>= 2.18.1),
@@ -26,10 +26,11 @@ Imports:
     expm,
     stats,
     rstantools
-LinkingTo: 
+LinkingTo:
     BH (>= 1.66.0),
     Rcpp (>= 0.12.0),
     RcppEigen (>= 0.3.3.3.0),
     rstan (>= 2.18.1),
-    StanHeaders (>= 2.18.0)
+    StanHeaders (>= 2.18.0),
+    RcppParallel (>= 5.0.1)
 SystemRequirements: GNU make

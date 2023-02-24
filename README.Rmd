@@ -12,6 +12,10 @@ knitr::opts_chunk$set(
 )
 ```
 
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/markgrama/CARME/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/markgrama/CARME/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
+
 # Installation
 
 ```{r, eval = FALSE}

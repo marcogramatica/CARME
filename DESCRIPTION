@@ -34,3 +34,4 @@ LinkingTo:
     StanHeaders (>= 2.18.0),
     RcppParallel (>= 5.0.1)
 SystemRequirements: GNU make
+NeedsCompilation: yes

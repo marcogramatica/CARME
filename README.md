@@ -3,23 +3,25 @@
 
 # CARME
 
-'Stan' based functions to estimate CAR-MM models. These models allow to estimate Generalised Linear Models with CAR (conditional autoregressive) spatial random effects for spatially and temporally misaligned data, provided a suitable Multiple Membership matrix. 
+Stan based functions to estimate CAR-MM models. These models allow to estimate Generalised Linear Models with CAR (conditional autoregressive) spatial random effects for spatially and temporally misaligned data, provided a suitable Multiple Membership matrix. 
 
 The main references are:
 
-- Structure Induced by a Multiple Membership Transformation on the Conditional
-Autoregressive Model." Bayesian Analysis Advance Publication 1 - 25, 2023.
+- Gramatica, M, Liverani, S, Congdon, P. <br>
+Structure Induced by a Multiple Membership Transformation on the Conditional
+Autoregressive Model.<br>
+Bayesian Analysis Advance Publication 1 - 25, 2023.<br>
 https://doi.org/10.1214/23-BA1370
-- Petrof, O, Neyens, T, Nuyts, V, Nackaerts, K, Nemery, B, Faes, C. On the
-impact of residential history in the spatial analysis of diseases with a
-long latency period: A study of mesothelioma in Belgium.
-Statistics in Medicine. 2020; 39: 3840– 3866.
+- Petrof, O, Neyens, T, Nuyts, V, Nackaerts, K, Nemery, B, Faes, C.<br>
+On the impact of residential history in the spatial analysis of diseases with a long latency period: A study of mesothelioma in Belgium.<br>
+Statistics in Medicine. 2020; 39: 3840– 3866.<br>
 https://doi.org/10.1002/sim.8697
-- Marco Gramatica, Peter Congdon, Silvia Liverani, Bayesian Modelling for
-Spatially Misaligned Health Areal Data: A Multiple Membership Approach,
-Journal of the Royal Statistical Society Series C: Applied Statistics,
-Volume 70, Issue 3, June 2021, Pages 645–666,
+- Gramatica, M, Congdon P, Liverani S.<br>
+Bayesian Modelling for Spatially Misaligned Health Areal Data: A Multiple Membership Approach.<br>
+Journal of the Royal Statistical Society Series C: Applied Statistics,<br>
+Volume 70, Issue 3, June 2021, Pages 645–666.<br>
 https://doi.org/10.1111/rssc.12480
+
 
 ## Installation
 

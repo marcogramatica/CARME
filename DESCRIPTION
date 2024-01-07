@@ -1,6 +1,6 @@
 Package: CARME
 Title: CAR-MM Modelling in Stan
-Version: 0.11
+Version: 0.1.1
 Authors@R:
     c(
     person("Marco", "Gramatica", , "gramaticamarco@gmail.com", role = c("aut", "cre"),

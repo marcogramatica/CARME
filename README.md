@@ -16,7 +16,7 @@ https://doi.org/10.1214/23-BA1370
 On the impact of residential history in the spatial analysis of diseases with a long latency period: A study of mesothelioma in Belgium.<br>
 Statistics in Medicine. 2020; 39: 3840– 3866.<br>
 https://doi.org/10.1002/sim.8697
-- Gramatica, M, Congdon P, Liverani S.<br>
+- Gramatica, M, Congdon, P, Liverani, S.<br>
 Bayesian Modelling for Spatially Misaligned Health Areal Data: A Multiple Membership Approach.<br>
 Journal of the Royal Statistical Society Series C: Applied Statistics,<br>
 Volume 70, Issue 3, June 2021, Pages 645–666.<br>

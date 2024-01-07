@@ -14,9 +14,9 @@
 #' Stan Development Team (2023). RStan: the R interface to Stan. R package version 
 #' 2.26.11. https://mc-stan.org
 #' 
-#' #' Marco Gramatica. Silvia Liverani. Peter Congdon. 
-#' "Structure Induced by a Multiple Membership Transformation on the Conditional
-#'  Autoregressive Model." Bayesian Analysis Advance Publication 1 - 25, 2023.
+#'  Marco Gramatica. Silvia Liverani. Peter Congdon. 
+#'  Structure Induced by a Multiple Membership Transformation on the Conditional
+#'  Autoregressive Model. Bayesian Analysis Advance Publication 1 - 25, 2023.
 #'  https://doi.org/10.1214/23-BA1370
 #'  
 #'  Petrof, O, Neyens, T, Nuyts, V, Nackaerts, K, Nemery, B, Faes, C. On the 

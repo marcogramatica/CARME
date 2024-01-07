@@ -1,7 +1,7 @@
 functions {
   real sparse_car_lpdf(vector phi,
   real alpha,
-    int[,] W_sparse, vector D_sparse, vector lambda, int n, int W_n) {
+    array[,] int W_sparse, vector D_sparse, vector lambda, int n, int W_n) {
       row_vector[n] phit_D; // phi' * D
       row_vector[n] phit_W; // phi' * W
       vector[n] ldet_terms;
@@ -45,7 +45,7 @@ data {
   matrix[n, k] X_cov;   // predictor matrix
 
   // Outcomes
-  int<lower = 0> y[m];
+  array[m] int<lower = 0> y;
 
   // Offsets
   vector[m] log_offset;
@@ -62,7 +62,7 @@ transformed data {
    // Adjacency
   // Number of directed neighbours per area
   vector[n] n_i;
-  int W_sparse[W_n, 2];   // adjacency pairs
+  array[W_n, 2] int W_sparse;   // adjacency pairs
   vector[n] D_sparse;     // diagonal of D (number of neigbors for each site)
   vector[n] lambda;       // eigenvalues of invsqrtD * W * invsqrtD
 
@@ -119,7 +119,7 @@ model {
   y ~ poisson(exp(log_offset + r_mm));
 }
 generated quantities {
-  int<lower = 0> yrep[m];
+  array[m] int<lower = 0> yrep;
   vector[m] log_lik;
   vector[m] log_lik_rep;
   real sum_ll;
